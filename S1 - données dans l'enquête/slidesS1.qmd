@@ -1,0 +1,873 @@
+---
+title: "Exploration des savoirs"
+subtitle: "L'enquête, ses données"
+author: "Émilien Schultz - Nicolas Benvegnu"
+format: 
+    # beamer
+    revealjs:
+        slide-number: true
+        fontsize: 25pt
+---
+
+## Objectifs
+
+- Lien enquête/données
+- Réfléchir aux données possibles
+- Discuter bonnes pratiques
+
+---
+
+## La démarche d'enquête
+
+1. Discussion 360°
+2. Phase exploratoire / contexte de découverte
+3. Consolidation de la question principale
+4. Calendrier & objectifs & données pour l'argumentation
+5. Démarche de collecte et de preuve
+6. Analyse
+7. Restitution 
+
+
+# Parlons données
+
+## Les données dans l'enquête
+
+Connaître la réalité ➡️ quel accès ?
+
+- **Sources**
+    - Résultats d'autres enquêtes
+- Documenter directement les phénomènes
+    - le langage des **données**
+
+---
+
+## Mise à l'épreuve des affirmations
+
+![](./img/F8zf0iBXcAAYkWc.jpeg){fig-align="center"} 
+
+---
+
+## C'est quoi une donnée ?
+
+Définition générique : *un ensemble d'informations issues par différentes transformations de traces laissées par un phénomène[^1]*
+
+- définition a-disciplinaire
+- importance du lien avec un **phénomène**
+    - *la donnée n'est pas le phénomène*
+- des étapes intermédiaires
+- nature de la "trace" recueillie : comment ? quoi ?
+
+[^1]: [Wikipédia : "Data, as a general concept, refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing."](https://en.wikipedia.org/wiki/Data)
+
+
+
+
+---
+
+## Des données partout
+
+![](./img/data-scientist-meme-main.jpg){fig-align="center"}
+
+---
+
+## Et sans fin
+
+![](./img/data_trap.png){fig-align="center"}
+
+
+
+
+---
+
+## Problématique fil rouge
+
+::: {.callout-note}
+
+## Cohabituation des mobilités en ville
+
+Constat de transformations en cours et de conflits entre les différentes mobilités dans les zones urbaines.
+
+- Quels sont les transformations en cours ?
+- Quelle place pour les nouvelles mobilités ?
+- Comment la cohabitation s'organise avec la croissance de l'usage du vélo ?
+
+Une question interdisciplinaire et controversée
+
+:::
+
+---
+
+## Enquêter pour dépasser les stéréotypes
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](./img/GcfQF8CXIAAjDxb.jpeg){fig-align="center"}
+
+:::
+
+::: {.column width="40%"}
+
+![](./img/Cyclistes-vaches_s.png){fig-align="center"}
+
+
+:::
+
+
+
+::::
+
+
+
+
+---
+
+
+## Quelles sont les données possibles ?
+
+Pour enquêter sur les cohabitations des mobilités autour de l'université et la place du vélo.
+
+::: {.callout-note}
+
+## Types de données
+
+
+- Mon expérience de cycliste
+- ...
+
+:::
+
+
+---
+
+## La place des données dans la démarche
+
+- *Theory-driven*
+    - Les données arrivent après la formulation d'une hypothèse
+- *Data-driven*
+    - Les réponses émergent des données (notamment, le big data)
+
+En fait 
+
+- Aucune donnée ne peut répondre à toutes les questions
+- Aucune donnée ne répond en soit à une question
+
+L'enquête : un mouvement plus incrémental liant terrain & données
+
+---
+
+## Deux principaux usages
+
+Les données interviennent à différents moments dans l'enquête
+
+- Exploratoire/découverte : diversifier son rapport au monde
+- Argumentation/justification : défendre un argument
+- (Illustration)
+
+
+---
+
+## Mais des spécialités "régionales" de données
+
+- Chaque domaine/secteur a ses données
+    - Histoire/Physique/Biologie
+    - Procès/Journalistes/...
+- Pour l'enquête interdisciplinaire
+    - Dépasser les habitudes
+    - Relier des pratiques différentes
+    - Se nourrir de la diversité
+
+Importance d'un vocabulaire commun
+
+
+
+---
+
+## Le mythe du processus linéaire
+
+
+![](./img/dataprocess.jpeg){fig-align="center"}
+
+---
+
+## Un processus itératif
+
+- Le lien entre question & données n'est pas immédiat
+- Processus itératif :
+    - Certaines données amènent à des questions
+    - Certaines questions amènent à chercher des données
+- Mais
+    - Certaines données n'existent pas
+- Accepter une certaine forme d'insatisfaction
+
+**Un appariement pragmatique et toujours partiel ; passe souvent par expliciter le protocole**
+
+---
+
+
+## Est-ce que toutes ces données se valent ?
+
+- Format : brut ou transformé (étapes intermédiaires)
+- Nature différentes (valeur, texte, image, ...)
+- Disponibilité (déjà collectées, à collecter)
+- Taille
+- Qualité
+
+---
+
+## Face à cette diversité
+
+- Comment choisir les données les plus pertinentes ?
+- Comment les manipuler et les stocker ?
+- Comment passer des données à des résultats ?
+
+Enjeu : prendre au sérieux les données pour des enquêtes plus riches et des affirmations plus solides.
+
+---
+
+
+## Corpus : construction & représentativité
+
+
+
+Corpus = ensemble de données rassemblée suivant une logique
+
+Pourquoi ? 
+
+- Décrire un ensemble d'éléments
+- Situer des éléments par rapport à d'autres
+
+
+
+::: {.callout-note}
+
+## Pratiques du vélo
+
+Une donnée : un entretien avec un cycliste
+
+Un corpus : des entretiens avec tous les cyclistes qui ont accepté de répondre à mes questions un samedi soir rue Rivoli
+
+:::
+
+---
+
+## Enjeu de la représentativité
+
+A-t-on suffisamment de données ? Est-ce que l'on peut vraiment se dire que l'on peut caractériser l'entièreté du phénomène ?
+
+- Dépend des domaines
+- Définir l'entité (population, grandeur, etc.) à représenter et le passage du corpus à cette entité
+
+Comment faire ? 
+
+- Entre méthodes & bricolage
+- Important de justifier/mettre en discussion.
+
+
+---
+
+## Produire vs. réutiliser des données
+
+- Données **primaire**
+    - construire ses données/corpus
+    - un gradient allant de la production complète à la mise en forme
+
+- Données **secondaire**
+    - données déjà constituées
+    - permet d'explorer en amont de l'enquête
+    - multiplication des données disponibles open data
+
+- Entre les deux : **l'explosion des traces numériques**
+    - accès à des bases de données/API
+
+---
+
+## Conséquences de la disponibilité
+
+- Données primaires : possible de les adapter à sa question mais vulnérabilité du protocole
+- Données secondaires : répondent souvent à une autre question que la votre
+
+::: {.callout-note title="Vélo & Justice"}
+
+- [Les données de comptage des vélos à Paris produits par la ville](https://opendata.paris.fr/explore/dataset/comptage-velo-donnees-compteurs/information/?disjunctive.id_compteur&disjunctive.nom_compteur&disjunctive.id&disjunctive.name)
+- Compter moi-même les vélos dans une rue
+:::
+
+---
+
+
+## La forme compte : quels formats ?
+
+- Données "désagrégées" permettant les recombinaisons:
+    - structurées
+        - tabulaires
+    - peu structurée
+        - un mélange de formats
+    - pas structuré
+        - un contenu dont il faut extraire l'information
+- Données déjà agrégées
+    - Tableaux déjà calculés
+    - Graphiques
+
+---
+
+
+## Une pragmatique des données
+
+Des arbitrages
+
+- Balance coût / avantage de l'accès à des données
+- Adéquation avec les objets de la question
+- Adéquation avec la nature de la question
+- Facilité de retransformer les données
+- Disponibilités des méthodes d'analyse pour obtenir un résultat
+
+
+Où mettre son énergie ?
+
+---
+
+## Difficulté d'accès aux données
+
+- Le coût des données :
+    - ces données peuvent déjà exister 👍
+    - peuvent être collectées avec un effort raisonnable 💪
+    - sont couteuses à récolter 👎
+
+::: {.callout-note}
+
+## Des choix à faire
+
+
+- Réaliser ma propre enquête par questionnaire, avec mes questions spécifiques
+- Utiliser les données publiques disponibles à l'échelle des villes
+
+:::
+
+---
+
+
+## Volume des données
+
+- Le volume des données n'est pas l'élément le plus important
+- Adéquation avec la question
+
+**Ne pas hésiter à restreindre la taille et privilégier l'adéquation**
+
+---
+
+## Qualité des données
+
+Toutes les données ne se valent pas : une qualité multidimensionnelle.
+
+- Tracabilité de la chaine de production
+- Fiabilités (producteurs douteux, ou au contraire légitime)
+- Données manquantes (est-ce qu'il manque des élément)
+- Erreurs dans le corpus
+- Ouverture versus fermeture de l'accès
+- ...
+
+---
+
+## L'analyse dans tout ça ?
+
+- La valeur des données vaut par la capacité d'en faire découler des résultats (actionner les données)
+    - Interdépendance collecte/données/résultats (par ex. l'expérimentation)
+- Certaines analyses sont complexes et posent la question de la faisabilité (ex. statistiques)
+- Des outils spécifiques...
+
+
+
+#  Par quelles données débuter
+
+## Les données "accessibles"
+
+- Toute enquête se pose la question:
+    - De l'espace public
+    - De la production des connaissances
+- Avec quelques manières de les utiliser
+    - Ce point sera traité dans une séance ultérieure plus en détail
+
+**Il n'y a pas vraiment de limites, n'hésitez pas à être créatifs**
+
+---
+
+## Documenter l'espace public : la presse
+
+L'article de presse comme contenu complexe :
+
+- date (évolution temporelle)
+- contenu textuel (sujets)
+- cadre : journal, journaliste, ...
+
+Permet une diversité d'approches :
+
+- l'article individuel comme source
+- corpus d'articles sur un sujet/période
+    - thèmes abordés
+    - acteurs récurrents
+    - évolutions temporelles
+
+---
+
+## Accès captifs
+
+Une presse sous droit d'auteur.
+
+- Par des outils dédiés comme [Gallicagram](https://shiny.ens-paris-saclay.fr/app/gallicagram)
+- Par l'interface de portails comme [Europresse]()
+- Certains médias sont libres
+
+---
+
+## Cadrage d'une tendance
+
+![](./img/gallicagram.png)
+
+---
+
+## Construire et extraire un corpus d'Europresse
+
+[Accès Europresse à des données payantes](https://catalogue-bibliotheque.sciencespo.fr/view/action/uresolver.do?operation=resolveService&package_service_id=19173791340005808&institutionId=5808&customerId=5800&VE=true)
+
+::: {.callout-note title="Vélo & Justice"}
+Comment aborde-t-on la question des inégalités quand on parle du vélo en région parisienne ?
+:::
+
+Le contour du corpus :
+
+- Définir la période
+- Définir les mots-clés
+- Définir les journaux concernés
+    - Se concentrer sur un journal
+    - Sur un bouquet?
+
+---
+
+## Construire des requêtes
+
+- Chaque interface a sa grammaire
+- Lire les résultats
+- Ne pas hésiter à combiner les éléments
+- Viser un nombre réaliste de résultats
+
+---
+
+## Consulter vs. conserver
+
+Possibilité de consulter sur Europresse. Mais comment conserver ?
+
+- Collecter à la main vs. télécharger
+- Des transformations nécessaires
+
+Puis aller vers l'analyse :
+
+- Descriptive : compter
+- Plus avancée
+- Visualisations
+
+::: {.callout-warning title="Statut des données"}
+Ce sont des données sous droit d'auteur. Leur usage est très réglementé. Il y a une tolérance pour la recherche mais il est interdit des diffuser.
+:::
+
+---
+
+## 
+
+![](./img/europresse.png)
+
+---
+
+## Exemple d'analyse de la presse {.center}
+
+![[Référence](https://www.sciencedirect.com/science/article/pii/S0001457515300981)](./img/datapress.png){height="700"}
+
+---
+
+## Mettre en forme les données
+
+- Délimiter le corpus
+- Téléchargement sous un format HTML
+    - Gérer la limite
+- Des fichiers HTML à dater + un document de métadonnées
+- [Transformer en un document tabulaire](https://dstool.onrender.com/)
+
+---
+
+
+
+## Étendre le domaine de la presse
+
+Europresse n'est pas le seul portail sur lequel collecter des données.
+
+Suivant la question :
+
+- se concentrer sur les articles parus sur un site spécifique spécialisé
+- récupérer les newsletters d'une organisation
+
+::: {.callout-note title="Statut des données"}
+
+Récupérer les évènements de la FUB pour voir lesquels mentionnent la question de la justive : https://www.fub.fr/fub/actualites
+:::
+
+---
+
+## Parenthèse : la difficile question des médias sociaux
+
+- Une source riche d'échanges
+- Mais de plus en plus fermés (Twitter, Insta, etc.)
+    - Difficulté de collecter massiviement
+    - Possibilités de constituer des petits corpus
+
+[Das, Subasish, et al. "Extracting patterns from Twitter to promote biking." IATSS research 43.1 (2019): 51-59.](https://www.sciencedirect.com/science/article/pii/S038611121730211X)
+
+
+<!--
+
+## L'état de la science & de la connaissances: les métadonnées des publications scientifiques
+
+- La cumulativité des connaissances dans la recherche scientifique passe largement par les publications scientifiques
+- L'étude de ces publications scientifiques permet :
+    - De suivre la dynamique des connaissances
+    - D'identifier les acteurs clés du monde scientifique
+    - De reconstituer les communautés
+- Depuis plus de 50 ans, des bases de méta-données
+- Auxquelles se rajoutent des bases de données ouvertes
+
+---
+
+## Des données multifactorielles
+
+- Date
+    - Evolutions
+- Affiliations
+    - Institutions/pays
+- Mots-clés & résumés
+    - Domaine de recherche
+- Auteurs
+    - Co-autorat / communautés
+- Citation
+    - Réputation
+- Financements...
+
+
+## Le portail Scopus/Openalex
+
+[OpenAlex](https://openalex.org/)
+
+[Scopus par la bibliothèque de sciencespo](https://www-scopus-com.acces-distant.sciencespo.fr/search/form.uri?display=basic#basic)
+
+::: {.callout-note}
+
+## Études sur les mobilités
+
+Quels sont les principaux pays producteur d'une littérature sur les mobilités en vélo ? 
+
+Quelle place occupe le thème de la justice/inégalité, et quels sont les angles principaux traités dans la littérature ?
+:::
+
+---
+
+## Encore une fois, la clé est le corpus
+
+Comment délimiter un corpus pertinent :
+
+- Approche biographique
+    - Se concenter sur un auteur
+- Approche thématique
+    - Identifier un thème
+- Approche institutionnelle
+
+Ne pas hésiter à viser des petits corpus & à lire quelques articles
+
+---
+
+## Récupérer les données
+
+Une fois le corpus délimité, enjeu de récupérer les données
+
+- Select > Export
+- Format CSV ou Plain text
+
+Permet l'analyse ensuite
+
+---
+
+## Autres sources
+
+- Web Of Science
+- Sources ouvertes
+    - [HAL](https://hal.science/)
+    - [ArXiv](https://arxiv.org/)
+- ...
+
+---
+
+## Documenter les répartitions nationales
+
+L'INSEE rend disponible de nombreuses données
+
+- Notamment [Catalogue des données de l'INSEE](https://catalogue-donnees.insee.fr/fr/catalogue/recherche)
+- Agrégées et à différents niveaux spatial (ville, IRIS)
+
+(ça vaut le coup de creuser un peu)
+
+::: {.callout-note title="Vélo & Justice"}
+[Mobilités professionnelles en 2020 : déplacements domicile - lieu de travail 
+Recensement de la population - Base flux de mobilité](https://www.insee.fr/fr/statistiques/7630376)
+
+- voir la structure des données
+- jeter un coup d'oeil sur les données
+:::
+
+---
+
+## Que faire avec ces données
+
+- Distributions nationales : 
+    - répartitions géographiques
+    - recalculer des statistiques pour des échnatillons
+    - faire des cartes
+- Recours à des logiciels statistiques
+    - Excel, Jamovi
+    - R, Python
+
+::: {.callout-warning title="Avant de faire de l'analyse"}
+
+Prendre le temps de regarder les données et réfléchir en amont sur les traitements envisagés
+
+:::
+
+---
+
+## Documenter les attitudes & pratiques : les sondages
+
+Que pensent les individus ? Que disent-ils de leurs pratiques ?
+
+- Les sondages sont devenus une source importante de connaisance des comportements sociaux
+- Des producteurs très différents (Chercheurs, associations, ...)
+- De plus en plus de données disponibles
+    - Recherche : [https://data.progedo.fr/](https://data.progedo.fr/)
+    - Autres acteurs : par exemple [https://opendata.parlons-velo.fr/](https://opendata.parlons-velo.fr/)
+
+---
+
+## Le contenu de ces données
+
+- Données tabulaires : questions en colonnes, réponses en ligne
+- Fichiers csv, spss, autre...
+- Permet une diversité d'analyses:
+    - Distribution
+    - Croisement
+    - Evolutions ...
+- Limite de la formulation des questions
+
+
+---
+
+## Entrepots de données
+
+[https://data.gouv.fr/](https://data.gouv.fr/)
+
+![](./img/opendata.png){fig-align="center"}
+
+---
+
+## S'adapter au corpus
+
+- une structure/des contenus très variables
+- une qualité variable
+- ne jamais hésiter à explorer
+
+::: {.callout-note title="Vélo & Justice"}
+
+[Statistiques de subventions d’achat de vélo en Île-de-France](https://www.data.gouv.fr/fr/datasets/statistiques-de-subventions-dachat-de-velo-en-ile-de-france/)
+
+- Distribution par villes
+- A rapporter aux données INSEE ?
+
+:::
+
+---
+
+## Une diversité d'autres sources
+
+- [Google trends](https://trends.google.com/trends/)
+- [Banque mondiale](https://donnees.banquemondiale.org/)
+- [OECD](https://www.oecd.org/en/data.html)
+- ...
+
+Avoir une conception ouverte de ce qui peut constituer une donnée utile
+
+--> 
+
+# Collecter vos propres données
+
+## Importance du protocole
+
+- Identifier clairement le rôle des données dans votre question
+    - Notamment les résultats que vous attendez
+- Clarifier la population ciblée & les critères de représentativité
+- Identifier les risques 
+    - Que se passe-t-il si vous n'arrivez pas à tout collecter ?
+
+::: {.callout-note title="Vélo & Justice"}
+Je veux m'intéresser aux images du vélo dans les films. Comment je construits la population de films (uniquement ceux qui le mentionne dans le résumé ? un échantillon aléatoire ?) ? Comment ensuite je code pour chaque film (je me limite au résumé de manière automatique ? Je les regarde ?)
+:::
+
+---
+
+## Importance du format de codage
+
+- Quelle "trace" garder
+    - Extensive : couteux
+    - Condensé : perte d'information
+- Construire des catégories en les testant
+    - Ne jamais hésiter à faire des allers-retours
+
+---
+
+## Données "quantitatives" et "qualitatives"
+
+- Division un peu artificielle
+- Passages possibles du qualitatif au quantitatif
+    - Codage des entretiens
+    - Analyse du texte
+- Importance de la structure des jeux de données / leur meta-informations
+
+---
+
+## Exemple des entretiens
+
+Définir le dispositif de collecte
+
+- Quel est le corpus (qui va être interrogé)
+- Comment passer du discours à des données 
+    - Annotation : quoi ?
+- Quels éléments doivent être présents dans l'entretien absoluments ?
+- Que se passe-t-il s'il manque un entretien ?
+
+---
+
+## Exemple des entretiens
+
+Après : l'enregistement/retranscription est une "trace" qu'il **faut mettre en forme**
+
+- Mettre les entretiens dans un format unifié
+    - .docx au mieux
+- Nommer les fichiers de manière systématique
+- Avoir un fichier avec les métadonnées (date, interlocuteur)
+- Transformer les données :
+    - Coder des éléments spécifiques des entretiens dans un fichier
+
+
+# Gestion matérielle des données
+
+## En pratique :
+
+- Comment bien collecter et conserver les données ?
+- Où les stocker ?
+- Comment les décrire dans ses travaux ?
+- Comment travailler collaborativement avec des données ?
+
+---
+
+## [Bonnes pratiques numériques](https://github.com/emilienschultz/dstool/blob/b16380a790fbc176f21792529b28c394b75d9b46/docs/Bonnes%20pratiques%20donn%C3%A9es%20SHS.md)
+
+- Collecter et conserver les données brutes
+- Documenter le contenu dans des **métadonnées**
+- Documenter chacune des transformations
+- Consolider un corpus nettoyé avant l'analyse
+
+**Dans l'idéal, aller vers la reproductibilité**
+
+
+---
+
+## Documenter documenter documenter
+
+Journal collectif des traitements
+
+![](./img/comment.png){fig-align="center"}
+
+---
+
+## Format et stockage des données
+
+- Simplifier le plus possible
+    - .txt, .csv, ...
+- Faire attention à la confidentialité
+    - Anonymisation/pseudonymisation
+- Noms clairs
+- Dater les fichiers
+- Système de dossier clair
+
+---
+
+## Ranger ses données
+
+- Conserver les données brutes
+- Mettre ensuite en forme les données pour faciliter les analyses
+
+![](img/tidydata.png){fig-align="center"}
+
+---
+
+## Sensibilité des données
+
+- Limiter les données identifiantes
+- Consentement et autorisation
+
+![](img/privacy.png){fig-align="center"}    
+
+---
+
+## Décrire les données dans ses travaux
+
+Dans les travaux :
+
+- Préciser la manière dont ont été constituées les données et.ou les sources
+    - Pour chaque corpus
+- Donner des informations descriptives sur le contenu
+- Les transformations qui ont été faites
+    - Ex. les filtrages
+- Préciser les limitations s'il y en
+    - Données manquantes
+    - Artefacts/problèmes
+
+---
+
+## L'importance de décrire les données
+
+![](./img/methodopress.png){.nostretch fig-align="center" width="900px"}
+
+[Lipovsky, Caroline. "Cycling the city: Representation in the French media." Language, Context and Text 2.2 (2020): 334-367.](https://www.researchgate.net/publication/344083798_Cycling_the_city_Representation_in_the_French_media)
+
+---
+
+## Aller vers l'analyse
+
+- La valeur des données dépend des possibilités d'analyse
+- Les analyses dépendent du type de données
+- Trois approches :
+    - "à la main" : manipulation (quasi) directe des données (Excel, codage manuel, ...)
+    - "pipeline automatisé" : usage de logiciels spécialisés (Iramuteq, VosViewer, Jamovi, ...)
+    - "programmation" : scripts de traitement de données (Python, R)
+
+---
+
+## Les données : un ingrédient (central)
+
+![](./img/repro.jpg){fig-align="center"}
+
+
+<!--
+
+Idées à faire passer
+
+- explorer ce qui existe avant de produire ses propres données
+- valorisation de mettre les mains dans les données (original, créatif)
+- complémentaire avec les autres méthodes
+
+-->
